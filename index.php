@@ -11,33 +11,33 @@ include "app/config.php";
 include "app/detect.php";
 
 if ($page_name=='') {
-	include $browser_t.'/index.html';
+	include '/index.html';
 	}
 elseif ($page_name=='index.html') {
-	include $browser_t.'/index.html';
+	include '/index.html';
 	}
 elseif ($page_name=='login.html') {
-	include $browser_t.'/login.html';
+	include '/login.html';
 	}
 elseif ($page_name=='register.html') {
-	include $browser_t.'/register.html';
+	include '/register.html';
 	}
 elseif ($page_name=='single.html') {
-	include $browser_t.'/single.html';
+	include '/single.html';
 	}
 elseif ($page_name=='checkout.html') {
-	include $browser_t.'/checkout.html';
+	include '/checkout.html';
 	}
 elseif ($page_name=='shop.html') {
-	include $browser_t.'/shop.html';
+	include '/shop.html';
 	}
 elseif ($page_name=='contact-post.html') {
-	include $browser_t.'/contact.html';
+	include '/contact.html';
 	include 'app/contact.php';
 	}
 else
 	{
-		include $browser_t.'/404.html';
+		include '/404.html';
 	}
 
 ?>
