@@ -1,19 +1,16 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
-<?php include '_components/head.php'; ?>
+<?php
+	$page_title = 'Shop';
+	include '_components/head.php'; 
+?>
 <body>
 	<?php include '_components/header.php'; ?>
-       <div class="login">
-         <div class="wrap">
-     	    <div class="rsidebar span_1_of_left">
+    <div class="login">
+        <div class="wrap">
+			<div class="rsidebar span_1_of_left">
 				<section  class="sky-form">
-                   	<h4>Occasion</h4>
+				   	<h4>Occasion</h4>
 					<div class="row row1 scroll-pane">
 						<div class="col col-4">
 							<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Athletic (20)</label>
@@ -27,7 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</section>
 				<section  class="sky-form">
-                   	<h4>Category</h4>
+				   	<h4>Category</h4>
 					<div class="row row1 scroll-pane">
 						<div class="col col-4">
 							<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Flats (70)</label>
@@ -294,7 +291,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="clear"></div>
 				</div>
 				<div class="clear"></div>
-		   </div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
 	<?php include '_components/footer.php'; ?>
 </body>
 </html>
