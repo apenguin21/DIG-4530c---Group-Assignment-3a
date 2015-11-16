@@ -1,7 +1,8 @@
+<?php include_once("ga.php") ?>
 <div class="header-top">
 	<div class="wrap"> 
 		<div class="logo">
-			<a href="index.php">
+			<a href="home.php">
 				<img src="images/logo.png" alt="Logo"/>
 			</a>
 		</div>
@@ -40,9 +41,6 @@
   			<li class="active grid">
   				<a class="color4" href="shop.php">Magical</a>
     		</li>
-    		<li class="grid">
-				<a class="color5" href="shop.php">Ghastly</a>
-			</li>
   			<li class="active grid">
   				<a class="color7" href="shop.php">Sale</a>
     		</li>
