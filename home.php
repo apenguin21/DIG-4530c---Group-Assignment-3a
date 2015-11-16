@@ -30,7 +30,7 @@
 				<div class="box1">
 					<!-- start loop to populate products -->
 					<div class="col_1_of_3 span_1_of_3">
-						<a href="single.html"><!-- product link -->
+						<a href="single.php"><!-- product link -->
 						    <div class="view view-fifth">
 						  		<div class="top_box">
 							  		<h3 class="m_1">Lorem ipsum dolor sit amet</h3><!-- product name -->
@@ -46,37 +46,6 @@
 		                       		<div class="price">$40</div><!-- product price -->
 							   	</div>
 							</div>
-							<span class="rating"><!-- product avg review -->
-								<input type="radio" class="rating-input" id="rating-input-1-5" name="rating-input-1">
-								<label for="rating-input-1-5" class="rating-star1"></label>
-
-								<input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">
-								<label for="rating-input-1-4" class="rating-star1"></label>
-
-								<input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">
-								<label for="rating-input-1-3" class="rating-star1"></label>
-
-								<input type="radio" class="rating-input" id="rating-input-1-2" name="rating-input-1">
-								<label for="rating-input-1-2" class="rating-star"></label>
-
-								<input type="radio" class="rating-input" id="rating-input-1-1" name="rating-input-1">
-								<label for="rating-input-1-1" class="rating-star"></label>&nbsp;
-				    	    </span>
-							<ul class="list">
-								<li>
-									<img src="images/plus.png" alt=""/>
-								  	<ul class="icon1 sub-icon1 profile_img">
-										<li>
-											<a class="active-icon c1" href="#">Add To Cart</a>
-											<ul class="sub-icon1 list">
-												<li><h3>sed diam nonummy</h3><a href=""></a></li>
-												<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="">adipiscing elit, sed diam</a></p></li>
-											</ul>
-									  	</li>
-									</ul>
-								</li>
-							</ul>
-					    	<div class="clear"></div>
 				    	</a>
 				    </div>
 				    <!-- end loop -->
